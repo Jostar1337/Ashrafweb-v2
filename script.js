@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         gsap.fromTo(profileBlock, { opacity: 0, y: -50 }, { opacity: 1, y: 0, duration: 1, ease: 'power2.out' });
-        if(visitorCount) visitorCount.textContent = (777).toLocaleString('de-DE');
+        if(visitorCount) visitorCount.textContent = (1337).toLocaleString('de-DE');
         
         typeWriterName();
         typeWriterBio();
@@ -202,5 +202,6 @@ document.addEventListener('DOMContentLoaded', () => {
     typeWriterStart();
 
 });
+
 
 
